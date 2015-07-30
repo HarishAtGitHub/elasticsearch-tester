@@ -59,3 +59,17 @@ I have a 2 global variables in E
 ```
 which internally points to pythons boolean True and False.
 So now you are free to have json as it is.
+
+### I don't know python. Can I have a sample file and start this .
+To be frank you need not know any python, because it is abstracted so that no one
+needs to know the language. It is just functions + json. It is just like psuedo-code.
+
+
+Here is the sample file :
+```
+https://github.com/HarishAtGitHub/elasticsearch-tester/blob/master/12135.py
+```
+
+If in case you are stuck in a place where you are forced to know python, please log an issue. We shall discuss and fix it to make it look more like psuedocode.
+
+
