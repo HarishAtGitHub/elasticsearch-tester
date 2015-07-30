@@ -1,5 +1,6 @@
 from ET import *
 
+# issue- 12135 : https://github.com/elastic/elasticsearch/issues/12135
 # 1. create an index(cast) and type(type) and post the data given
 # 2. create another index (cast2) and type (type) with mappings of data to ip
 # 3. post data to index.type in step 2
