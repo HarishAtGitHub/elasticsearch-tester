@@ -15,7 +15,7 @@ can comment on whether the test case is right or wrong.
 Also to maintain the history, so that when ever someone wants to reproduce the issue they can come and clone 
 the repo as
 
-
+```
   git clone https://github.com/HarishAtGitHub/elasticsearch-tester
  ```
 
