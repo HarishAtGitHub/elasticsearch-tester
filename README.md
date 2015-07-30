@@ -1,4 +1,4 @@
-# elasticsearch-tester - E
+# elasticsearch-tester - ET
 This is a repo to easily test the issues reported in elastic search and document the test case for others to view any time.
 
 ## Why did I do this ?
@@ -8,7 +8,7 @@ And then come and record the result in the issue.
 Here only the result is documented and not the test procedure.So the test procedure vanishes.
 I did not like it as I was not able to reuse the test procedure that even I did previously.
 
-So wanted to come up with a easy solution for me to use. So I came up with the 'E' module.
+So wanted to come up with a easy solution for me to use. So I came up with the 'ET' module.
 
 This is a way to document the test procedure so that people 
 can comment on whether the test case is right or wrong.
@@ -36,11 +36,11 @@ If you don't find the {{ issue-id }}.py in this repo , but you want it, please c
 this repo.
 
 ### Ok.. How to write the {{ issue-id }}.py ?
-The module 'E' has easy abstracted way to make get, post ,put calls.
+The module 'ET' has easy abstracted way to make get, post ,put calls.
 
 Just do
 ```python
-   from E import *
+   from ET import *
    get(url, data)
    post(url, data)
    put(url, data)
@@ -52,7 +52,7 @@ The data is a normal json.
 
 ### How did I handle the mapping between True , False in python and true , false in json ?
 
-I have a 2 global variables in E 
+I have a 2 global variables in ET module 
 ```
    true
    false
