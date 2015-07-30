@@ -21,7 +21,12 @@ def generic_call(call, url, data):
     response = getattr(requests, call)(url, json.dumps(data), headers = custom_headers)
   else:
     response = getattr(requests, call)(url, headers = custom_headers);
-  print_response(response)
+  print_response(call, url, response)
 
-def print_response(response):
+def print_response(call, url, response):
+  print(call + " call to ----> " + url);
+  print("                   gave response as follows                   ");
   pprint.pprint(response.content, width = 2, indent = 2);
+  print("*******************************************************************");
+  print("\n");
+  print("\n");
