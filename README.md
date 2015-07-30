@@ -60,7 +60,7 @@ I have a 2 global variables in E
 which internally points to pythons boolean True and False.
 So now you are free to have json as it is.
 
-### I don't know python. Can I have a sample file and start this .
+### Do I need to know python ? If so, Can I have a sample file and start writing the script  ?
 To be frank you need not know any python, because it is abstracted so that no one
 needs to know the language. It is just functions + json. It is just like psuedo-code.
 
