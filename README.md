@@ -71,3 +71,8 @@ Here is the sample file :
 If in case you are stuck in a place while writing issue-id.py , where you are forced to know python, please log an issue. We shall discuss and fix it to make it easy(may be by abstracting it).
 
 
+### Requirements to use it
+1. install python 
+2. sudo pip install requests  (If you don't have pip pls refer:https://pip.pypa.io/en/stable/installing.html)
+
+If you still have trouble installing it . Please contact me.
