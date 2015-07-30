@@ -6,7 +6,13 @@ When ever some issue is reported in elastic search I used to go to
 some rest client installed some where and test it to reproduce the issue.
 And then come and record the result in the issue. 
 Here only the result is documented and not the test procedure.So the test procedure vanishes.
-I did not like it as I was not able to reuse the test procedure that even I did previously.
+I did not like it the old approach of adhoc-testing as
+
+1. I was not able to reuse the test procedure that even "I" did previously.
+2. the test procedures are not recorded
+3. it is difficult to again simluate it when questions like "Is the issue still reproducible ?" are asked after
+   a long time . For eg. see https://github.com/elastic/elasticsearch/issues/6172#issuecomment-66243297
+4. it did not answer the common questions like "How to reproduce this issue ?" "Could you reproduce this issue ?"
 
 So wanted to come up with a easy solution for me to use. So I came up with the 'ET' module.
 
