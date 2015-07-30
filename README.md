@@ -1,4 +1,4 @@
-# Elasticsearch-Tester - ET
+# Elasticsearch Tester - ET
 This is a repo to easily test the issues reported in elastic search and document the test case for others to view any time.
 
 ## Why did I do this ?
