@@ -26,6 +26,7 @@ def generic_call(call, url, data):
 def print_response(call, url, response):
   print(call + " call to ----> " + url);
   print("                   gave response as follows                   ");
+  print("\n");
   pprint.pprint(response.content, width = 2, indent = 2);
   print("*******************************************************************");
   print("\n");
