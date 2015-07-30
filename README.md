@@ -12,7 +12,15 @@ So wanted to come up with a easy solution for me to use. So I came up with the '
 
 This is a way to document the test procedure so that people 
 can comment on whether the test case is right or wrong.
-Also to maintain the history, so that when ever someone wants to reproduce the issue they can come and
+Also to maintain the history, so that when ever someone wants to reproduce the issue they can come and clone 
+the repo as
+
+```
+  git clone https://github.com/HarishAtGitHub/elasticsearch-tester
+ ```
+
+and
+
 run the script as
 
 ```
@@ -24,8 +32,11 @@ and get the results.
 If you feel the test case is wrong you can change the code and give  a pull request saying why it is 
 wrong .
 
+If you don't find the {{ issue-id }}.py in this repo , but you want it, please create it and commit it in 
+this repo.
 
-The module has easy abstracted way to make get, post ,put calls.
+### Ok.. How to write the {{ issue-id }}.py ?
+The module 'E' has easy abstracted way to make get, post ,put calls.
 
 Just do
 ```python
@@ -35,7 +46,7 @@ Just do
    put(url, data)
 ```
   
-Thats it.
+Thats it. In general it is callname(url, data). It is that simple.
 
 The data is a normal json.
 
