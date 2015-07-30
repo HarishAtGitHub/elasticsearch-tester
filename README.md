@@ -66,7 +66,7 @@ needs to know the language. It is just functions + json. It is just like psuedo-
 
 
 Here is the sample file :
-<a href="https://github.com/HarishAtGitHub/elasticsearch-tester/blob/master/12135.py">12135.py</a>
+<a href="https://github.com/HarishAtGitHub/elasticsearch-tester/blob/master/12523.py">12523.py</a>
 
 If in case you are stuck in a place while writing issue-id.py , where you are forced to know python, please log an issue. We shall discuss and fix it to make it easy(may be by abstracting it).
 
