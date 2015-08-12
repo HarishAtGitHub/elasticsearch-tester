@@ -1,5 +1,6 @@
 import requests
 import json
+import yaml
 import pprint
 custom_headers = {
                    'Accept': 'application/json',
@@ -8,13 +9,13 @@ custom_headers = {
 true = True;
 false = False;
 def get(url, data = None):
-  generic_call('get', url, data);
+  return generic_call('get', url, data);
 
 def post(url, data= None):
-  generic_call('post', url, data);
+  return generic_call('post', url, data);
 
 def put(url, data= None):
-  generic_call('put', url, data);
+  return generic_call('put', url, data);
 
 def generic_call(call, url, data):
   if data:
@@ -22,6 +23,8 @@ def generic_call(call, url, data):
   else:
     response = getattr(requests, call)(url, headers = custom_headers);
   print_response(call, url, response)
+  return yaml.safe_load(response.content) # to get around the unicode format in json.loads
+  # http://stackoverflow.com/questions/956867/how-to-get-string-objects-instead-of-unicode-ones-from-json-in-python/16373377#16373377
 
 def print_response(call, url, response):
   print(call + " call to ----> " + url);
