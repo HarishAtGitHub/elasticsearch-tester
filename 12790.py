@@ -1,9 +1,9 @@
 from ET import *
 
 # issue- 12790 : https://github.com/elastic/elasticsearch/issues/12790
-# 1. create an index a_index.
+# 1. create an index with name indexone_name.
 # 2. get the settings of the index.
-# 3. use result from above to create new index.
+# 3. use result from above to create new index indextwo_name.
 # 4. get settings of the index of step 3
 
 indexone_name = "index1";
