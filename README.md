@@ -80,5 +80,6 @@ If in case you are stuck in a place while writing issue-id.py , where you are fo
 ### Requirements to use it
 1. install python 
 2. sudo pip install requests  (If you don't have pip pls refer:https://pip.pypa.io/en/stable/installing.html)
+3. sudo pip install pyyaml
 
 If you still have trouble installing it . Please contact me.
